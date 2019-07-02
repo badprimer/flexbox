@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <title>Flexbox | Welcome</title>
+  </head>
+  <body id="home">
+    <div id="toTop"><i class="fas fa-chevron-up fa-2x"></i></div>
+
+    <!-- Header Section -->
+    <header id="main-header">
+      <a href="#hero">
+        <h1 class="logo">Flex<span class="blue">Box</span></h1>
+      </a>
+      <nav id="navbar">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#work">Products</a></li>
+        <li><a href="#features">About</a></li>
+        <li><a href="#contact">Contacts</a></li>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-content">
+        <h1 class="l-heading">Responsive Flexbox Template</h1>
+        <h3 class="m-heading">A website coded by niall.dk</h3>
+        <a
+          href="https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox"
+          target="_blank"
+          class="btn"
+          >Download It Here</a
+        >
+      </div>
+    </section>
+
+    <!-- Our Work -->
+    <section id="work">
+      <h2 class="m-heading">Some Of Our Work</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum
+        laudantium iusto necessitatibus, pariatur ipsa eius sint fugiat
+        molestias quas.
+      </p>
+      <div class="separator"></div>
+
+      <!-- Grid Element | background-imgae -->
+      <div class="grid">
+        <div class="small" id="img-1"></div>
+        <div class="large" id="img-2"></div>
+        <div class="large" id="img-3"></div>
+        <div class="small" id="img-4"></div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <h2 class="m-heading">Features And Services</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda amet
+        voluptas quam fugiat pariatur nemo, accusamus blanditiis harum iste
+        praesentium?
+      </p>
+      <div class="separator"></div>
+
+      <div class="flex">
+        <div>
+          <i class="fas fa-camera-retro fa-3x"></i>
+          <h4>Photography</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+            magni atque nulla iste, sunt alias.
+          </p>
+        </div>
+        <div>
+          <i class="fas fa-cubes fa-3x"></i>
+          <h4>Web Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+            magni atque nulla iste, sunt alias.
+          </p>
+        </div>
+        <div>
+          <i class="fas fa-newspaper fa-3x"></i>
+          <h4>Content Editing</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+            magni atque nulla iste, sunt alias.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Sections -->
+    <section id="testimonials">
+      <h2 class="m-heading">What Others Say</h2>
+      <div>
+        <p class="quote">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe amet
+          nesciunt itaque non in nulla animi enim aut est deleniti!
+        </p>
+        <p class="author">- Oliver Miles</p>
+      </div>
+      <div>
+        <p class="quote">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe amet
+          nesciunt itaque non in nulla animi enim aut est deleniti!
+        </p>
+        <p class="author">- Arjen Teulings</p>
+      </div>
+      <div>
+        <p class="quote">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe amet
+          nesciunt itaque non in nulla animi enim aut est deleniti!
+        </p>
+        <p class="author">- Billy Duff</p>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="contact">
+      <h2 class="m-heading">Join Our Newsletter</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, soluta
+        animi dolore iste earum quos? Rerum culpa atque possimus eum.
+      </p>
+      <div class="separator"></div>
+
+      <form class="flex">
+        <input type="email" name="email" id="email" placeholder="Enter email" />
+        <input type="submit" value="Subscribe Now" class="btn" />
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="main-footer">
+      <ul class="icons">
+        <li>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-snapchat fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-pinterest fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-github fa-2x"></i></a>
+        </li>
+      </ul>
+      <p>Coded by niall.dk. Images courtesy to unsplash.</p>
+      <p>
+        <a
+          href="https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox"
+          target="_blank"
+        >
+          FlexBox by Tutorialzine</a
+        >
+      </p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/44152e3391.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
